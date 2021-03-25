@@ -98,3 +98,10 @@ article [itemprop="summary"] p {
     max-width: 50rem;
   }
 }
+summary {
+  color: gray;
+}
+summary:focus {
+  color: red;
+  outline-style: none;
+}
